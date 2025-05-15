@@ -5,19 +5,16 @@ list_title: "최근 글"
 
 <style>
 .homepage {
-  display: flex;           /* 좌우로 배치 */
-  align-items: flex-start; /* 위쪽 정렬 */
-  gap: 2rem;               /* 사이 여백 */
+  display: flex;           /* 좌우 배치 */
+  align-items: flex-start; /* 상단 정렬 */
+  gap: 2rem;               /* 사이 간격 */
 }
-/* 왼쪽 카테고리 폭 고정 */
 .homepage .sidebar {
-  width: 200px;
+  width: 200px;            /* 왼쪽 카테고리 고정 너비 */
 }
-/* 오른쪽 최신 글 영역은 나머지 공간 차지 */
 .homepage .main {
-  flex: 1;
+  flex: 1;                 /* 오른쪽 최신 글 영역 가변 */
 }
-</style>
 </style>
 
 <div class="homepage">
@@ -51,4 +48,3 @@ list_title: "최근 글"
   </section>
 
 </div>
-
