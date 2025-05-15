@@ -1,6 +1,6 @@
 theme: minima
 title: "Unnamed yet"       # 사이트 타이틀
-description: "축구와 연구"  # 
+description: "축구"  # 
 navigation:
   - title: "Home"
     url: /
