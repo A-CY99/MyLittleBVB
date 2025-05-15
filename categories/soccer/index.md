@@ -1,9 +1,8 @@
-
----
+--- 
 layout: default    # 또는 카테고리 전용 레이아웃이 있다면 그 이름
 title: "⚽️ 축구 잡설"
-permalink: /categories/soccer/
----
+permalink: categories/soccer/
+--- 
 
 <h1>{{ page.title }}</h1>
 <ul>
