@@ -1,6 +1,6 @@
 theme: minima
-title: "Unnamed yet"       # 사이트 타이틀
-description: "축구"  # 
+title: "미정의 돌공군"       # 사이트 타이틀
+description: "돌공군의 편향된 시선"  # 
 navigation:
   - title: "Home"
     url: /
