@@ -4,7 +4,10 @@ list_title: "최근 글"
 ---
 
 <style>
-.homepage { display: flex; }
+.homepage {
+  display: flex;
+  align-items: flex-start;
+}
 .homepage .sidebar {
   width: 20%;
   padding-right: 1rem;
