@@ -5,21 +5,25 @@ list_title: "최근 글"
 
 <style>
 .homepage {
-  display: flex;           /* 좌우 배치 */
-  align-items: flex-start; /* 상단 정렬 */
-  gap: 2rem;               /* 사이 간격 */
+  display: flex;
 }
+/* sidebar를 뷰포트 왼쪽에 고정 */
 .homepage .sidebar {
-  width: 200px;            /* 왼쪽 카테고리 고정 너비 */
+  position: fixed;
+  top: 4rem;        /* 헤더 높이에 맞춰 조정 */
+  left: 0;
+  width: 200px;     /* 원하는 고정 폭 */
 }
+/* main은 sidebar 너비만큼 오른쪽으로 띄우기 */
 .homepage .main {
-  flex: 1;                 /* 오른쪽 최신 글 영역 가변 */
+  margin-left: 220px;  /* sidebar width + gap */
+  flex: 1;
 }
 </style>
 
-<div class="homepage">
 
-  <aside class="sidebar">
+<div class="homepage">
+  <aside class="sidebar">…</aside>
     <h2>카테고리</h2>
     <ul>
       <li><a href="/categories/soccer">⚽️ 축구 잡설</a></li>
@@ -35,7 +39,7 @@ list_title: "최근 글"
     </ul>
   </aside>
 
-  <section class="main">
+  <section class="main">…</section>
     <h2>{{ page.list_title }}</h2>
     <ul>
       {% for post in site.posts %}
