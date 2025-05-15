@@ -27,6 +27,7 @@ list_title: "최근 글"
     <ul>
       <li><a href="/categories/soccer">⚽️ 축구 잡설</a></li>
       <li><a href="/categories/2425-reviews">24/25 경기 후기</a></li>
+      <li><a href="/categories/How-about-him?">이 선수는 어떤데?</a></li>
       <details>
         <summary>📂 과거 시즌들</summary>
         <ul>
