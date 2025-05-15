@@ -5,17 +5,19 @@ list_title: "최근 글"
 
 <style>
 .homepage {
-  display: flex;
-  align-items: flex-start;
+  display: flex;           /* 좌우로 배치 */
+  align-items: flex-start; /* 위쪽 정렬 */
+  gap: 2rem;               /* 사이 여백 */
 }
+/* 왼쪽 카테고리 폭 고정 */
 .homepage .sidebar {
-  width: 20%;
-  padding-right: 1rem;
-  box-sizing: border-box;
+  width: 200px;
 }
+/* 오른쪽 최신 글 영역은 나머지 공간 차지 */
 .homepage .main {
-  width: 80%;
+  flex: 1;
 }
+</style>
 </style>
 
 <div class="homepage">
