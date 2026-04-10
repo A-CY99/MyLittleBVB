@@ -19,23 +19,23 @@ categories: [How-about-him]
   <tbody>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="padding: 12px 15px; background-color: #f3f3f3; font-weight: bold; width: 30%;">이름</td>
-      <td style="padding: 12px 15px;"></td>
+      <td style="padding: 12px 15px;">Leopold Querfeld</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="padding: 12px 15px; background-color: #f3f3f3; font-weight: bold;">나이</td>
-      <td style="padding: 12px 15px;"></td>
+      <td style="padding: 12px 15px;">22</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="padding: 12px 15px; background-color: #f3f3f3; font-weight: bold;">국적</td>
-      <td style="padding: 12px 15px;"></td>
+      <td style="padding: 12px 15px;">오스트리아</td>
     </tr>
     <tr style="border-bottom: 1px solid #dddddd;">
       <td style="padding: 12px 15px; background-color: #f3f3f3; font-weight: bold;">포지션</td>
-      <td style="padding: 12px 15px;"></td>
+      <td style="padding: 12px 15px;">센터백</td>
     </tr>
     <tr style="border-bottom: 2px solid #009879;">
       <td style="padding: 12px 15px; background-color: #f3f3f3; font-weight: bold;">키</td>
-      <td style="padding: 12px 15px;"></td>
+      <td style="padding: 12px 15px;">190cm</td>
     </tr>
   </tbody>
 </table>
