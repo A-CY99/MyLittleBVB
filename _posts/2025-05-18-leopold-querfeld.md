@@ -11,7 +11,7 @@ categories: [How-about-him]
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: sans-serif; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden;">
   <thead>
-    <tr style="background-color: #009879; color: #ffffff; text-align: left; font-weight: bold;">
+    <tr style="background-color: #FF0000; color: #ffffff; text-align: left; font-weight: bold;">
       <th style="padding: 12px 15px;">항목</th>
       <th style="padding: 12px 15px;">상세 정보</th>
     </tr>
